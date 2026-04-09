@@ -1,79 +1,66 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-body{
-    background-color: black;
+
+body {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.card{
-    width: 90%;
-    max-width: 470px;
-    background:linear-gradient(135deg,#00feba,#5b548a);
-    color:#fff;
-    margin: 100px auto 0;
-    border-radius: 20px;
-    padding: 40px 35px;
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
     text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
-.search{
-    width:100%;
+
+.search {
     display: flex;
-    align-items: center;
-    justify-content:space-between;
+    justify-content: center;
+    margin-bottom: 20px;
 }
-.search input{
-    border:0;
-    outline: 0;
-    background: #ebfffc;
-    color: #555;
-    padding: 10px 25px;
-    height:60px;
-    border-radius: 30px;
-    flex:1;
-    margin-right: 16px;
-    font-size: 18px;
+
+.search input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
 }
-.search button{
-    border:0;
-    outline: 0;
-    background: #ebfffc;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    cursor:pointer;
+
+.search button {
+    padding: 10px;
+    border: none;
+    background-color: #0072ff;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
 }
-.weather-icon{
-    width:170px;
-    margin-top: 30px;
+
+.weather .weather-icon {
+    width: 100px;
+    margin: 10px 0;
 }
-.weather h1{
-    font-size: 80px;
-    font-weight: 500;
-    margin-top: -10px;
+
+.weather h1, .weather h2 {
+    margin: 5px 0;
 }
-.weather h2{
-    font-size: 45px;
-    font-weight: 400;
-    margin-top: -10px;
-}
-.details{
+
+.details {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    margin-top:50px;
+    justify-content: space-around;
+    margin-top: 15px;
 }
-.col{
-    display: flex;
-    align-items: center;
-    text-align: left;
-}
-.col img{
-    width:40px;
-    margin-right: 10px;
-}
-.humidity,.wind{
-    font-size: 28px;
-    margin-top: -6px;
+
+.details .col p:first-child {
+    font-size: 1.2em;
+    font-weight: bold;
 }
