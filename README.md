@@ -23,7 +23,7 @@ Built to practice JavaScript, API integration, and responsive design.
 ---
 
 ## 🔹 Live Demo
-#Live at:https://jyothsna-priya9676.github.io/Weather-app/
+Live at:https://jyothsna-priya9676.github.io/Weather-app/
 ---
 
 ## 🔹 How to Run Locally
